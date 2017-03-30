@@ -3,7 +3,7 @@ FROM quay.io/pires/docker-jre:8u112_1
 MAINTAINER rangertaha@gmail.com
 
 # Export HTTP & Transport
-EXPOSE 5959 5959
+EXPOSE 5959
 
 ENV VERSION 5.3.0
 
