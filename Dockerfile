@@ -2,7 +2,7 @@ FROM quay.io/pires/docker-jre:8u112_1
 
 MAINTAINER rangertaha@gmail.com
 
-ENV VERSION logstash-5.1.2
+ENV VERSION logstash-5.3.0
 
 # Install Logstash
 RUN apk add --update curl bash ca-certificates
